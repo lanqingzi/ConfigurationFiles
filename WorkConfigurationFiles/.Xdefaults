@@ -1,6 +1,10 @@
 xterm*geometry: 90x45
 xterm*font:-misc-fixed-medium-r-normal-*-18-120-*-*-c-*-iso8859-1
 
+!xterm*faceName: Ubuntu Mono
+!xterm*faceSize: 15
+!xterm*renderFont: true
+
 !BLK Cursor
 #define _color0        #4f4f4f
 #define _color8        #4f4f4f
