@@ -1,0 +1,10 @@
+Lucario Color Scheme
+SideBarEnhancements
+SystemVerilog
+BracketHighlighter
+
+Tools->Build System->New Build System
+{
+    "cmd": ["path to python", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)"
+}
