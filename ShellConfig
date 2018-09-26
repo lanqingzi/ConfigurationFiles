@@ -1,10 +1,15 @@
-Bash prompt
+Bash 
+terminal prompt
 
 export PS1='\e[92m\W \e[93m$ '
 
 color example
 \e[92mHello world -> Hello world
-
+terminal name
+create a file name termtitle
+#!/bin/bash
+echo -ne "\033]0;${1}\007"
+usage: termtitle "new title here"
 
 
 C shell
@@ -17,3 +22,11 @@ endif
 
 Not redvm26[path basename]$
 [path basename]$
+
+terminal name
+if($SHLVL == 2) then #if rc file is been executed more than once
+    set tabName
+    echo "Enter tab name: "
+    set tabName="$<"
+    ./.termtitle "$tabName"
+endif
