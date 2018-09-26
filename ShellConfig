@@ -24,7 +24,7 @@ Not redvm26[path basename]$
 [path basename]$
 
 terminal name
-if($SHLVL == 2) then #if rc file is been executed more than once
+if($SHLVL == 2 && `hostname` == 'redvm26') then #if rc file is been executed more than once and under correct machine
     set tabName
     echo "Enter tab name: "
     set tabName="$<"
