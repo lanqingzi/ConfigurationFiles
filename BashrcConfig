@@ -1,0 +1,9 @@
+Bash prompt
+
+
+export PS1='\e[92m\W \e[93m$ '
+
+
+
+color example
+\e[92mHello world -> Hello world
