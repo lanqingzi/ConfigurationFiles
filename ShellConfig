@@ -8,6 +8,12 @@ color example
 
 
 C shell
-set prompt='%{\e[93m%}[%{\e[92m%}%c%{\e[93m%}]%{\e[93m%}$%{\e[0m%} '
+Check if on the right host and give a blink warning if not
+if(`hostname` == 'redvm26') then
+    set prompt='%{\e[93m%}[%{\e[92m%}%c%{\e[93m%}]%{\e[93m%}$%{\e[0m%} '
+else
+    set prompt='%{\e[5;41;37m%}Not redvm26%{\e[0;93m%}[%{\e[92m%} %c%{\e[93m%}]%{\e[93m%}$%{\e[0m%} '
+endif
 
+Not redvm26[path basename]$
 [path basename]$
