@@ -1,7 +1,7 @@
 Bash 
 terminal prompt
 
-export PS1='%{\e[93m%}[%{\e[92m%}%c%{\e[93m%}]%{\e[93m%}$%{\e[0m%} '
+export PS1='\e[92m[\W] \e[93m$\e[m '
 
 color example
 \e[92mHello world -> Hello world
