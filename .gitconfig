@@ -1,0 +1,5 @@
+[user]
+        name = qingzi
+        email = lanqingzi@gmail.com
+[alias]
+        showlog = log --oneline --graph --decorate -n 10
