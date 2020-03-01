@@ -1,0 +1,9 @@
+# To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication no
+
+# Block root login
+PermitRootLogin no
+
+# Allow root login with home ip only
+Match Address 192.168.*.*
+	PermitRootLogin yes
